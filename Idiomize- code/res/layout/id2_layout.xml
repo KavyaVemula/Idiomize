@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homebg"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/header" />
+
+    <Button
+        android:id="@+id/bid2next"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="124dp"
+        android:layout_marginLeft="100dp"
+        android:text="next" />
+
+    <Button
+        android:id="@+id/bid2back"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bid2next"
+        android:layout_alignBottom="@+id/bid2next"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/bid2next"
+        android:text="Back" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="64dp"
+        android:text="Meaning:To further a loss with mockery or indignity; to worsen an unfavorable situation."
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="54dp"
+        android:text="Idiom:Add insult to injury"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

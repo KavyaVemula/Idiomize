@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homebg"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/header" />
+
+    <Button
+        android:id="@+id/jumblednext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="118dp"
+        android:text="Next Question" />
+
+    <Button
+        android:id="@+id/jumbledgo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/jumblednext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="86dp"
+        android:text="check" />
+
+    <EditText
+        android:id="@+id/jumbledanswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/jumbledgo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/jumbledquestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/jumbledanswer"
+        android:layout_alignLeft="@+id/jumbledgo"
+        android:layout_marginBottom="21dp"
+        android:text="a"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/jumbledcorrectans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/jumblednext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:text="a " />
+
+    <ImageView
+        android:id="@+id/wrongsm"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/jumblednext"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/wrongsm"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/correctsm"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/jumblednext"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/correctsmiley"
+        android:visibility="gone" />
+
+</RelativeLayout>

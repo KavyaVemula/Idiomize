@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homebg"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/bl2check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etl2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="->" />
+
+    <TextView
+        android:id="@+id/tvl2correctans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/bl2check"
+        android:layout_below="@+id/bl2check"
+        android:layout_marginTop="38dp"
+        android:text=" " />
+
+    <ImageView
+        android:id="@+id/wrongsm"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/bl2check"
+        android:layout_toRightOf="@+id/etl2"
+        android:src="@drawable/wrongsm"
+        android:visibility="gone"
+         />
+
+    <ImageView
+        android:id="@+id/correctsm"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/wrongsm"
+        android:layout_toLeftOf="@+id/etl2"
+        android:src="@drawable/correctsmiley"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvl2question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="52dp"
+        android:text="question"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/etl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvl2question"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/bl2back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvl2correctans"
+        android:layout_centerHorizontal="true"
+        android:text="Go back to Menu!!" />
+
+</RelativeLayout>

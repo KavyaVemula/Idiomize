@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.idiomize"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/minions"
+        android:label="@string/app_name"
+         >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Home"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.idiomize.HOME" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Aboutus"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.idiomize.ABOUTUS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Go"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.idiomize.GO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+         
+     
+        
+        
+        
+         
+         <activity
+            android:name=".Page105"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.idiomize.PAGE105" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         
+         <activity
+            android:name=".Page110"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.idiomize.PAGE110" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            
+         <activity
+            android:name=".Id1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.idiomize.ID1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            
+         <activity
+            android:name=".Id2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.idiomize.ID2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            
+         <activity
+            android:name=".Id3"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.idiomize.ID3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            
+         <activity
+            android:name=".Test1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.idiomize.TEST1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:name=".Id4"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.idiomize.ID4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+           <activity
+            android:name=".Id5"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.idiomize.ID5" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            <activity
+            android:name=".Id6"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.idiomize.ID6" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Test2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.idiomize.TEST2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Jumbled"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.idiomize.JUMBLED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".WhatAmI"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.idiomize.WHATAMI" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Logo"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.idiomize.LOGO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         
+       <activity
+            android:name=".Start"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.idiomize.START" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+       <activity
+            android:name=".idioms"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.idiomize.IDIOMS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+       <activity
+            android:name=".Level2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.idiomize.LEVEL2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+       <activity
+            android:name=".Learn2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.idiomize.LEARN2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+       <activity
+            android:name=".L2test"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.idiomize.L2TEST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:name=".Level3"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.idiomize.LEVEL3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+       <activity
+            android:name=".Learn3"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.idiomize.LEARN3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+       <activity
+            android:name=".L3test"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.idiomize.L3TEST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+    </application>
+
+</manifest>

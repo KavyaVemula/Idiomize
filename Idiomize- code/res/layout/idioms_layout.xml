@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homebg"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/bidiomsback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="132dp"
+        android:text="BACK TO MENU!!" />
+
+    <Button
+        android:id="@+id/blevel3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="LEVEL 3" />
+
+    <Button
+        android:id="@+id/blevel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/blevel1"
+        android:layout_alignLeft="@+id/blevel3"
+        android:layout_marginLeft="56dp"
+        android:text="LEVEL 2" />
+
+    <Button
+        android:id="@+id/blevel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/blevel3"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="58dp"
+        android:text="LEVEL 1" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/grass" />
+
+    <ImageView
+        android:id="@+id/cloud"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/blevel1"
+        android:layout_marginRight="14dp"
+        android:src="@drawable/cloud" />
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homebg"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/blearn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mini"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:text="LEARN!!" />
+
+    <Button
+        android:id="@+id/btest2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blearn2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:text="TAKE A TEST!!" />
+
+    <Button
+        android:id="@+id/bl2back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btest2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:text="GO BACK TO LEVELS!!" />
+
+    <ImageView
+        android:id="@+id/mini"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignLeft="@+id/btest2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="42dp"
+        android:src="@drawable/mini" />
+
+</RelativeLayout>

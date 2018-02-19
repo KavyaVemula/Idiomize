@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homebg"
+    android:orientation="vertical" >
+    
+     <TextView
+        android:id="@+id/tvl3question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="52dp"
+        android:text="question"
+        
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/bl3back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="62dp"
+        android:text="Go back to Menu!!" />
+
+    <Button
+        android:id="@+id/bl3check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="->" />
+
+    <TextView
+        android:id="@+id/tvl3correctans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bl3check"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="correct " />
+
+    <EditText
+        android:id="@+id/etl3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvl3question"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <ImageView
+        android:id="@+id/wrongsm"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/correctsm"
+        android:layout_toRightOf="@+id/bl3back"
+        android:src="@drawable/wrongsm"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/correctsm"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/bl3back"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/correctsmiley" 
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

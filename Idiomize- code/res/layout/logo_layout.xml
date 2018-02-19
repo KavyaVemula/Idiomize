@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homebg"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/header" />
+
+    <EditText
+        android:id="@+id/whatanswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/whatcheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/whatnext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:text="CHECK!!" />
+
+    <Button
+        android:id="@+id/whatnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/whatcheck"
+        android:layout_alignParentBottom="true"
+        android:text="Next Logo!!" />
+
+    <ImageView
+        android:id="@+id/imagequestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/whatanswer"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/nike" />
+
+    <ImageView
+        android:id="@+id/correctsm"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/whatanswer"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/correctsmiley"
+        android:visibility="gone"
+         />
+
+    <ImageView
+        android:id="@+id/wrongsm"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/correctsm"
+        android:layout_toRightOf="@+id/whatnext"
+        android:src="@drawable/wrongsm"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/whatcorrect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/whatcheck"
+        android:layout_below="@+id/whatanswer"
+        android:layout_marginTop="38dp"
+        android:text="crct" />
+
+</RelativeLayout>

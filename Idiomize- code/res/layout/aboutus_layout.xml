@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homebg"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/header" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="54dp"
+        android:text="An idiom is a phrase or a fixed expression that has figurative meaning.. Idioms help to make English a colourful language.
+ Hence we aimed at creating a fun filled learning experience that helps the user get acquainted with most of the idioms so that he can use them in his daily conversation.
+The app contains different levels under idioms where each level will have a learning session and a test session.The complexity of the idioms keeps increasing at each level.The app even contains different games like logo quiz, riddles,jumbled words which will refresh the user and act as stress-bursting games.
+         " />
+
+</RelativeLayout>
